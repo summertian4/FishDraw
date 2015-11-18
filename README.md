@@ -3,7 +3,7 @@ iOS-FishDraw是一个简单的画图app。
 
 动图展示:
 
-![动图展示](http://7xnrog.com1.z0.glb.clouddn.com/github_iOS-FishDraw-show.gif)
+![FishDraw效果演示](http://7xnrog.com1.z0.glb.clouddn.com/github_iOS-FishDraw-show.gif)
 
 # 功能
 1. 绘制椭圆、矩形、圆形等基本图形

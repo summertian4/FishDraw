@@ -11,6 +11,10 @@ iOS-FishDraw是一个简单的画图app。
 3. 缩放图形
 4. 移动图形
 
+# 结构
+1. [UML图PDF](https://github.com/summertian4/iOS-FishDraw/blob/master/FishDraw/FishDraw.pdf)
+
+
 # 更新
 1. 2015年8月19日  第一次提交源码
 2. 2015年9月23日  加入屏幕适配

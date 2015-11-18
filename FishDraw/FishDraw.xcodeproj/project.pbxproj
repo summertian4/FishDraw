@@ -24,6 +24,7 @@
 		820A3FD71B7A0CDD00911C72 /* ToolController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A3FD61B7A0CDD00911C72 /* ToolController.m */; };
 		820A3FDA1B7A1A6F00911C72 /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A3FD91B7A1A6F00911C72 /* DataController.m */; };
 		820A3FDD1B7A2EBF00911C72 /* SelectTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A3FDC1B7A2EBF00911C72 /* SelectTool.m */; };
+		826BC5201BFC659A00B2CD05 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 826BC51F1BFC659A00B2CD05 /* UIImage+Extension.m */; settings = {ASSET_TAGS = (); }; };
 		829F97B71B7DBE1A00568E7D /* ZoomTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 829F97B61B7DBE1A00568E7D /* ZoomTool.m */; };
 		829F9ABE1B80425D001B2EE9 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 829F9ABD1B80425D001B2EE9 /* Tool.m */; };
 		82A6ABCB1B7D87B3002BBADF /* ColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A6ABCA1B7D87B3002BBADF /* ColorUtil.m */; };
@@ -74,6 +75,9 @@
 		820A3FD91B7A1A6F00911C72 /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataController.m; sourceTree = "<group>"; };
 		820A3FDB1B7A2EBF00911C72 /* SelectTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectTool.h; sourceTree = "<group>"; };
 		820A3FDC1B7A2EBF00911C72 /* SelectTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectTool.m; sourceTree = "<group>"; };
+		826BC51E1BFC659A00B2CD05 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		826BC51F1BFC659A00B2CD05 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		826BC5221BFC666300B2CD05 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		829F97B51B7DBE1A00568E7D /* ZoomTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomTool.h; sourceTree = "<group>"; };
 		829F97B61B7DBE1A00568E7D /* ZoomTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomTool.m; sourceTree = "<group>"; };
 		829F9ABC1B80425D001B2EE9 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
@@ -138,6 +142,7 @@
 				820A3F911B79A4BE00911C72 /* Images.xcassets */,
 				820A3F851B79A4BE00911C72 /* Info.plist */,
 				820A3F861B79A4BE00911C72 /* main.m */,
+				826BC5221BFC666300B2CD05 /* Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,7 +167,6 @@
 		820A3FAA1B79A4C300911C72 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				820A3FCB1B79AD8600911C72 /* util */,
 				820A3FC71B79AC0900911C72 /* shape */,
 				820A3FC61B79ABF800911C72 /* tool */,
 			);
@@ -198,6 +202,8 @@
 			children = (
 				820A3F881B79A4BE00911C72 /* AppDelegate.h */,
 				820A3F891B79A4BE00911C72 /* AppDelegate.m */,
+				826BC51D1BFC62AF00B2CD05 /* category */,
+				820A3FCB1B79AD8600911C72 /* util */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -257,6 +263,15 @@
 				820A3FDC1B7A2EBF00911C72 /* SelectTool.m */,
 			);
 			name = SelectTool;
+			sourceTree = "<group>";
+		};
+		826BC51D1BFC62AF00B2CD05 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				826BC51E1BFC659A00B2CD05 /* UIImage+Extension.h */,
+				826BC51F1BFC659A00B2CD05 /* UIImage+Extension.m */,
+			);
+			name = category;
 			sourceTree = "<group>";
 		};
 		829F97B11B7DBD7600568E7D /* zoom */ = {
@@ -392,6 +407,7 @@
 				82CB79951B7CC4A50004B72F /* MoveTool.m in Sources */,
 				820A3FD41B79EE4F00911C72 /* RectangleTool.m in Sources */,
 				820A3FDA1B7A1A6F00911C72 /* DataController.m in Sources */,
+				826BC5201BFC659A00B2CD05 /* UIImage+Extension.m in Sources */,
 				820A3F8A1B79A4BE00911C72 /* AppDelegate.m in Sources */,
 				820A3F871B79A4BE00911C72 /* main.m in Sources */,
 			);

@@ -1,0 +1,24 @@
+//
+//  Prefix.pch
+//  FishDraw
+//
+//  Created by 周凌宇 on 15/11/18.
+//  Copyright © 2015年 周凌宇. All rights reserved.
+//
+
+#ifndef Prefix_pch
+#define Prefix_pch
+
+#ifdef __OBJC__
+
+#import "UIImage+Extension.h"
+
+#endif
+
+#ifdef DEBUG
+#define CFLog(...) NSLog(__VA_ARGS__)
+#else
+#define CFLog(...)
+#endif
+
+#endif /* Prefix_pch */

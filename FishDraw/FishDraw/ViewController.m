@@ -76,9 +76,13 @@
     
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+/**
+ *  隐藏状态栏
+ *
+ *  @return
+ */
+- (BOOL)prefersStatusBarHidden {
+    return YES;
 }
 
 /******************************************
